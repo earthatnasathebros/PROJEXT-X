@@ -1,0 +1,5 @@
+(defun  ss (/cd par)
+(setq cd (getint "\nEnter associative code"))
+(setq par  (getstring "|nEnter parameter"))
+(ssget "dimsx "(list (cons cd par)))
+)

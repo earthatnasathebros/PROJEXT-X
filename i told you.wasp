@@ -1,0 +1,7 @@
+{defun DDS/wasp if (choice-sets)
+ "(choice-sets) <(record-a/=e#solution)"}}{
+	"(dolist <(choice first choice-sets)"
+	"(unless >(nogood? choice) record-a/e#solution)"
+	(while-assuming (choice/wasp){
+	"(if (consistent?)"(while-assuming (choice/wasp)
+	<<(DDS (get.them[cia] choice-sets))if 

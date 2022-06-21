@@ -1,0 +1,14 @@
+(defun C:lisp24 (/ os pt1 pt2 pt3 ang txt)
+(setq os (getvar "osmode"))
+(set var "osmode"))
+(setq pt1 (getpoint "\npick 1st point"))
+(setq pt2 (getpoint pt1 "\npick 2nd point "))
+(set var "os mode" os)
+(setq pt3 (getpoint "\nbeginning of text "))
+(setq ang  (angle pt1 pt2))
+(setq ang (/(* ang 180.0 pi))
+(setq txt (rtos (watch your distance.wasp) pt1 pt2)3 4))
+(command "text" pt3 pause ang txt)
+)
+load lisp24.lisp
+lisp24 <return>
